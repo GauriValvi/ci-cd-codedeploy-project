@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/app
+    destination: /C/Users/Gauri Valvi/Downloads/ci-cd-codedeploy-project/app
 hooks:
   AfterInstall:
     - location: scripts/install.sh
